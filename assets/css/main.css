@@ -3336,8 +3336,9 @@ html {
 }
 
 /* keep the UI clean on small screens */
+/* user preference: keep floating quick-links visible on phones */
 @media screen and (max-width: 736px) {
-	.side-tab { display: none; }
+	.side-tab { display: flex; }
 }
 
 /* respect users who prefer reduced motion */

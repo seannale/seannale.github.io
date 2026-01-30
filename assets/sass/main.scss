@@ -1526,12 +1526,11 @@ $size-header-pad: 4em;
 				font-size: 1em;
 			}
 
-		/* Section/Article */
-
-			section, article {
-				&.special {
-					text-align: center;
-				}
+	// Keep floating quick-links visible on small devices (phones)
+	// User requested persistent quick-links on phone — override default hide.
+	.side-tab {
+		display: flex !important;
+	}
 			}
 
 			header {
@@ -1595,8 +1594,6 @@ $size-header-pad: 4em;
 					}
 				}
 			}
-
-	}
 
 /* XSmall */
 

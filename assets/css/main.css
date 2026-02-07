@@ -3347,3 +3347,28 @@ html {
 	.side-tab__btn { transition: none; }
 	.side-tab__label { transition: none; }
 }
+
+/* Certification badge sizing */
+#certifications .image img,
+#certifications .thumb img {
+	max-width: 180px;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto 0.8rem auto;
+	border-radius: 6px;
+}
+
+@media screen and (max-width: 980px) {
+	#certifications .image img,
+	#certifications .thumb img {
+		max-width: 140px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#certifications .image img,
+	#certifications .thumb img {
+		max-width: 110px;
+	}
+}
